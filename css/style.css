@@ -14,7 +14,7 @@ body {
 /* <!-- /////////////////////// header_ ///////////////////////// --> */
 .header_ {
     width: 100%;
-    height: 86px;
+    height: 12vw;
     background-color: rgb(11, 149, 134);
     display: flex;
     align-items: center;
@@ -231,7 +231,7 @@ body {
 .section_1_container_imgBack_imgOver_img {
     height: 50%;
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
 .section_1_container_imgBack_imgOver_P{
@@ -788,9 +788,9 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 50px 0;
+    padding: 5vw 0;
 
-    height: 250px;
+    height: 25vw;
 }
 
 .footer_container_start_left_ {
@@ -809,9 +809,9 @@ body {
 .footer_container_start_left_content_img {
     display: block;
     width: 15vw;
-    height: 50px;
+    height: 5vw;
     background-color: rgb(217, 231, 247);
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
     opacity: .7;
 }
 
@@ -824,7 +824,7 @@ body {
 }
 
 .footer_container_start_left_content_ul_li_ {
-    padding: 10px 4vw 0 0;
+    padding: 1vw 4vw 0 0;
 }
 
 .footer_container_start_left_content_ul_li_a {
@@ -854,7 +854,7 @@ body {
 
 .footer_container_start_right_content_form_ {
     width: 35vw;
-    margin-top: 10px;
+    margin-top: 1vw;
     display: flex;
     align-items: center;
     position: relative;
@@ -862,7 +862,7 @@ body {
 
 .footer_container_start_right_content_form_input {
     width: 100%;
-    padding: 10px;
+    padding: 1vw;
     border-radius: 25px;
     border: 1px solid rgb(122, 134, 146);
     outline: none;
@@ -873,9 +873,10 @@ body {
 
 .footer_container_start_right_content_form_btn {
     position: absolute;
-    right: 1px;
-    top: 0.5px;
-    padding: 10px 3vw;
+    right: .4px;
+    top: 50%;
+    transform: translateY(-49%);
+    padding: 1vw 3vw;
     border: none;
     background-color: rgb(255, 187, 28);
     color: white;
@@ -894,7 +895,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 50px 0;
+    padding: 5vw 0;
 }
 
 .footer_container_end_left_ {
@@ -913,7 +914,7 @@ body {
 .footer_container_end_left_ul_li_a {
     text-decoration: none;
     
-    margin: 10px 2vw;
+    margin: 1vw 2vw;
 }
 
 .footer_container_end_right_ {
