@@ -294,10 +294,10 @@ body {
 }
 
 .section_2_container_content_btn {
-    padding: 10px 3vw;
-    margin: 5px;
+    padding: 1vw 3vw;
+    margin: 0.5vw;
     border: none;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-size: 1vw;
     transition: background-color 0.3s ease;
     color: #000000;
@@ -436,7 +436,7 @@ body {
 .section_5_container_body_start_imgS_ {
     margin-bottom: 2.5vw;
     padding: 1vw;
-    border-radius: 20px;
+    border-radius: 2vw;
     background-color: rgb(226, 240, 229);
     display: inline-block;
 }
@@ -447,13 +447,13 @@ body {
     max-height: 70px;
     max-width: 70px;
     padding: 1vw;
-    border-radius: 10px;
+    border-radius: 1vw;
     background-color: rgb(60, 171, 144);
 }
 
 .section_5_container_body_start_h2 {
     font-size: 2.8vw;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
 .section_5_container_body_start_p {
@@ -494,7 +494,7 @@ body {
     align-items: center;
     margin-bottom: 2vw;
     background-color: rgb(223, 244, 244);
-    border-radius: 7px;
+    border-radius: .7vw;
 }
 
 .section_5_container_body_end_card_header_img {
@@ -505,13 +505,13 @@ body {
 .section_5_container_body_end_card_body_h2 {
     font-size: 1.3vw;
     color: #2a2a2a;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
 .section_5_container_body_end_card_body_p {
     font-size: 1.04vw;
     color: #6c757d;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
 .section_5_container_body_end_card_body_p_a {
@@ -571,7 +571,7 @@ body {
     background: rgba(60, 171, 144, 0.05);
     border: 1px solid rgb(60, 171, 144);
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 0.8vw;
     
 }
 
@@ -598,7 +598,7 @@ body {
 /* <!-- /////////////////////// section_7_ ///////////////////////// --> */
 .section_7_ {
     width: 100%;
-    padding: 50px 0;
+    padding: 5vw 0;
 }
 
 .section_7_container_ {
@@ -644,9 +644,9 @@ body {
 
     background: rgba(60, 171, 144, 0.05);
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+    border-radius: 0.8vw;
+    padding: 2vw;
+    margin-bottom: 2vw;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
 }
@@ -658,7 +658,7 @@ body {
 .section_7_container_right_start_h5 {
     font-size: 1.2rem;
     color: rgb(60, 171, 144);
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
 .section_7_container_right_start_spO {
