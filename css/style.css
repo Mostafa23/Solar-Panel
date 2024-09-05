@@ -343,6 +343,12 @@ body {
 
 .section_3_container_content_card_ {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.section_3_container_content_card_:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .section_3_container_content_card_img {
@@ -369,6 +375,10 @@ body {
     text-decoration: none;
     font-size: 1.2vw;
     font-weight: bold;
+}
+
+.section_3_container_content_card_body_a:hover {
+    color: rgb(37, 132, 108);
 }
 
 /* <!-- /////////////////////// section_4_ ///////////////////////// --> */
@@ -572,7 +582,12 @@ body {
     border: 1px solid rgb(60, 171, 144);
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 0.8vw;
-    
+
+    transition: transform 0.2s;
+}
+
+.section_6_container_content_card_:hover {
+    transform: scale(1.05);
 }
 
 .section_6_container_content_card_img {
@@ -649,6 +664,12 @@ body {
     margin-bottom: 2vw;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
+
+    transition: transform  0.2s;
+}
+
+.section_7_container_right_:hover {
+    transform: scale(1.05);
 }
 
 .section_7_container_right_start_ {
@@ -834,6 +855,10 @@ body {
     font-size: 1vw;
 }
 
+.footer_container_start_left_content_ul_li_a:hover {
+    color: rgb(154, 153, 153);
+}
+
 .footer_container_start_right_ {
     height: 100%;
 
@@ -863,7 +888,7 @@ body {
 .footer_container_start_right_content_form_input {
     width: 100%;
     padding: 1vw;
-    border-radius: 25px;
+    border-radius: 2.5vw;
     border: 1px solid rgb(122, 134, 146);
     outline: none;
     background-color: rgb(59, 72, 87);
@@ -873,14 +898,14 @@ body {
 
 .footer_container_start_right_content_form_btn {
     position: absolute;
-    right: .4px;
+    right: .05vw;
     top: 50%;
-    transform: translateY(-49%);
-    padding: 1vw 3vw;
+    transform: translateY(-50%);
+    padding: 1.05vw 3vw;
     border: none;
     background-color: rgb(255, 187, 28);
     color: white;
-    border-radius: 25px;
+    border-radius: 2.5vw;
     cursor: pointer;
     font-size: 1.5vw;
 }
@@ -913,8 +938,11 @@ body {
 
 .footer_container_end_left_ul_li_a {
     text-decoration: none;
-    
     margin: 1vw 2vw;
+}
+
+.footer_container_end_left_ul_li_a:hover {
+    color: rgb(193, 193, 193);
 }
 
 .footer_container_end_right_ {
